@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>放らぼ高等学院 新聞写真部 (Houlab School Fes 2026)</title>
+    <meta name="description" content="鳳學祭2026の最新情報をお届けするデジタル新聞">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;500;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="paper-container">
+        <!-- Header Section -->
+        <header class="newspaper-header">
+            <div class="newspaper-header__meta">
+                <span id="current-date">2026年02月14日(土)</span>
+                <span class="weather-info">天気: 晴れ / 気温: 18°C</span>
+            </div>
+            <h1 class="newspaper-header__title">放らぼ高等学院 新聞写真部</h1>
+            <div class="newspaper-header__sub">
+                <span class="issue-number">第1024号</span>
+                <span class="price">無料</span>
+                <span class="publisher">鳳學祭実行委員会 発行</span>
+            </div>
+            <hr class="newspaper-header__divider">
+        </header>
+
+        <main class="newspaper-main">
+            <!-- Hero Article -->
+            <article class="article article--hero">
+                <div class="article__content">
+                    <span class="article__category">校内ニュース</span>
+                    <a href="article-classroom-makeover.html" style="text-decoration: none; color: inherit;">
+                        <h2 class="article__headline">1年1組の教室魔改造される!?!?<br>深夜の校舎で一体何が演じられたのか</h2>
+                    </a>
+                    <p class="article__lead">
+                        2月11日深夜、静寂に包まれた校舎内で1年1組の教室が異様な変貌を遂げた。
+                        取材班が目撃したのは、教室の概念を覆す驚きの光景。
+                        実行犯とされる若芽生もく氏の証言と、現場に残された数々の謎（顔面、動物たち）に迫る。
+                    </p>
+                    <p class="article__body">
+                        「先生には許可を取った」と語る犯人の真意とは？
+                        教室の角に追いやられた動物たちの運命は？
+                        衝撃の全貌を写真と共に詳細レポート。
+                        <br><br>
+                        <a href="article-classroom-makeover.html"
+                            style="color: var(--accent-red); font-weight: bold;">[続きを読む]</a>
+                    </p>
+                </div>
+                <figure class="article__figure">
+                    <a href="article-classroom-makeover.html">
+                        <img src="img_classroom.jpg" alt="魔改造された教室の全景" class="article__image">
+                    </a>
+                    <figcaption class="article__caption">魔改造された1年1組の全景（11日深夜撮影）</figcaption>
+                </figure>
+            </article>
+
+            <hr class="section-divider">
+
+            <!-- Content Grid -->
+            <div class="content-grid">
+                <!-- Secondary Articles (Main Column) -->
+                <div class="content-grid__main">
+                    <div class="article-row">
+                        <article class="article article--secondary">
+                            <a href="article-preparation-start.html" style="text-decoration: none; color: inherit;">
+                                <h3 class="article__headline-sm">ついに解禁！文化祭準備、本格スタート！！</h3>
+                            </a>
+                            <a href="article-preparation-start.html">
+                                <img src="img_tab_list.png" alt="開会式の様子" class="article__image-sm">
+                            </a>
+                            <p class="article__summary">校舎に響くツルハシの音。サバイバルエリアの開放と、ハート池での釣り解禁。驚愕のドロップリストとは？</p>
+                        </article>
+
+                        <article class="article article--secondary">
+                            <h3 class="article__headline-sm">吹奏楽部、全国大会への切符を掴むか</h3>
+                            <img src="https://placehold.co/400x250/2b2b2b/ffffff?text=Brass+Band" alt="吹奏楽部"
+                                class="article__image-sm">
+                            <p class="article__summary">14日午後の定期演奏会にて、コンクール自由曲を初披露予定。</p>
+                        </article>
+                    </div>
+
+                    <div class="article-row">
+                        <article class="article article--text-only">
+                            <h3 class="article__headline-xs">食堂新メニュー「鳳凰カレー」</h3>
+                            <p class="article__summary">
+                                スパイスを20種類使用した本格派。限定100食のため、お早めに。
+                                隠し味に地元産のハチミツを使用しており、コクのある甘みが特徴。
+                            </p>
+                        </article>
+                        <article class="article article--text-only">
+                            <h3 class="article__headline-xs">迷子センターの設置場所変更</h3>
+                            <p class="article__summary">
+                                昨年とは異なり、正門横の事務室前に設置されます。
+                                ご協力をよろしくお願いいたします。
+                            </p>
+                        </article>
+                    </div>
+                </div>
+
+                <!-- Sidebar column -->
+                <aside class="content-grid__sidebar">
+                    <section class="sidebar-section">
+                        <h4 class="sidebar-heading">新着ニュース</h4>
+                        <ul class="schedule-list">
+                            <li><a href="article-classroom-makeover.html"
+                                    style="text-decoration:none; color:inherit;">1年1組の教室魔改造される!?!?</a></li>
+                            <li><a href="article-preparation-start.html"
+                                    style="text-decoration:none; color:inherit;">ついに解禁！文化祭準備、本格スタート！！</a></li>
+                            <li><a href="#" style="text-decoration:none; color:inherit;">吹奏楽部、定期演奏会のお知らせ</a></li>
+                        </ul>
+                    </section>
+
+                    <section class="sidebar-section">
+                        <h4 class="sidebar-heading">編集後記</h4>
+                        <p class="editorial-note">
+                            デジタルの海に漕ぎ出す我らが鳳學新聞。
+                            インクの匂いはしませんが、情熱の熱量は変わりません。
+                            （編集長 M）
+                        </p>
+                    </section>
+
+                    <div class="ad-space">
+                        <img src="https://placehold.co/300x200/dcdcdc/2b2b2b?text=Advertisement" alt="広告スペース">
+                    </div>
+                </aside>
+            </div>
+        </main>
+
+        <footer class="newspaper-footer">
+            <p>&copy; 2026 Houlab School Festival Executive Committee. All Rights Reserved.</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

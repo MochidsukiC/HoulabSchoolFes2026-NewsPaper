@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1年1組の教室魔改造される!?!? - 放らぼ高等学院 新聞写真部</title>
+    <meta name="description" content="1年1組の教室が魔改造された件についての取材記事。">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;500;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="article_detail.css">
+    <style>
+        /* Specific styles for this article's fortune telling section */
+        .fortune-telling {
+            background-color: #f0f0f0;
+            padding: var(--spacing-lg);
+            margin-top: var(--spacing-xl);
+            border: 1px double var(--text-color);
+        }
+
+        .fortune-telling h2 {
+            font-size: 1.8rem;
+            margin-bottom: var(--spacing-md);
+            text-align: center;
+        }
+
+        .fortune-list {
+            list-style: none;
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: var(--spacing-sm);
+        }
+
+        @media (min-width: 600px) {
+            .fortune-list {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+
+        .fortune-item {
+            display: flex;
+            justify-content: space-between;
+            border-bottom: 1px dotted var(--border-color);
+            padding-bottom: 4px;
+        }
+
+        .fortune-rank {
+            font-weight: bold;
+            margin-right: var(--spacing-sm);
+        }
+
+        .fortune-item.top-rank {
+            color: var(--accent-red);
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="paper-container">
+        <!-- Header Section -->
+        <header class="newspaper-header">
+            <div class="newspaper-header__meta">
+                <a href="index.html" class="back-link">← トップページに戻る</a>
+                <span id="current-date">2026年02月13日(金)</span>
+            </div>
+            <div class="newspaper-header__mini-title">放らぼ高等学院 新聞写真部</div>
+            <hr class="newspaper-header__divider">
+        </header>
+
+        <main class="newspaper-main">
+            <div class="content-grid">
+                <div class="content-grid__main">
+                    <article class="article-detail">
+                        <header class="article-detail__header">
+                            <span class="article__category">校内ニュース</span>
+                            <h1 class="article-detail__title">1年1組の教室魔改造される!?!?</h1>
+                            <div class="article-detail__meta">
+                                <span class="author">取材: 佐藤甘味 / 編集: 佐藤甘味 狼月兎紀 わんと</span>
+                                <time datetime="2026-02-14">2026年02月14日</time>
+                            </div>
+                        </header>
+
+                        <figure class="article-detail__main-image">
+                            <img src="img_classroom.jpg" alt="魔改造された教室の全景">
+                            <figcaption>参考画像1: 1年1組の教室内の様子</figcaption>
+                        </figure>
+
+                        <div class="article-detail__body">
+                            <p class="lead-paragraph">
+                                2月11日の午後11:30頃に某るとら氏に1年1組に取材の許可を得て、取材をしに行ったところ上記の画像(参考画像1)のような光景が広がっていた。
+                            </p>
+
+                            <p>
+                                また、教室の後ろには見覚えのある顔面が飾られており、(参考画像2)何か事件性のある様となっていた。この教室の魔改造を行ったのは1年1組の若芽生もく氏その人であり、本人曰く「先生には許可を取ったので大丈夫なんじゃないすかぁ？」と供述しており犯行を認めている模様。
+                            </p>
+
+                            <figure class="article__figure">
+                                <img src="img_face.jpg" alt="教室の後ろに飾られた顔面" class="article__image">
+                                <figcaption>参考画像2</figcaption>
+                            </figure>
+
+                            <hr class="section-divider">
+
+                            <p>
+                                この画像以外にも教室にはまだ謎が隠されている。下の画像(参考画像3)をご覧いただきたい。
+                            </p>
+
+                            <figure class="article__figure">
+                                <img src="img_animals.jpg" alt="追いやられた動物たち" class="article__image">
+                                <figcaption>参考画像3: 教室の角に追いやられている動物たち</figcaption>
+                            </figure>
+
+                            <p>
+                                この画像は1年1組の教室の角に追いやられている動物たちである。この悲惨な行為を行ったのは教室の魔改造の犯人である若芽生
+                                もく氏である。我々はこのような行為が許されていいのかを読者の皆様に問いかけたい。
+                            </p>
+
+                            <!-- Fortune Telling Section embedded in article -->
+                            <section class="fortune-telling">
+                                <h2>今日の占い</h2>
+                                <ul class="fortune-list">
+                                    <li class="fortune-item top-rank"><span class="fortune-rank">1位 てんびん座</span>
+                                        <span>ラッキーアイテム:
+                                            エメラルド</span>
+                                    </li>
+                                    <li class="fortune-item"><span class="fortune-rank">2位 おとめ座</span> <span>ラッキーアイテム:
+                                            ゾンビーフ</span></li>
+                                    <li class="fortune-item"><span class="fortune-rank">3位 しし座</span> <span>ラッキーアイテム:
+                                            トマト</span>
+                                    </li>
+                                    <li class="fortune-item"><span class="fortune-rank">4位 さそり座</span> <span>ラッキーアイテム:
+                                            麦わら帽子</span></li>
+                                    <li class="fortune-item"><span class="fortune-rank">5位 かに座</span> <span>ラッキーアイテム:
+                                            刺身の上に載ってるタンポポ</span></li>
+                                    <li class="fortune-item"><span class="fortune-rank">6位 いて座</span> <span>ラッキーアイテム:
+                                            不労所得</span></li>
+                                    <li class="fortune-item"><span class="fortune-rank">7位 ふたご座</span> <span>ラッキーアイテム:
+                                            ファンタグレープ</span></li>
+                                    <li class="fortune-item"><span class="fortune-rank">8位 うし座</span> <span>ラッキーアイテム:
+                                            ウサギ肉</span></li>
+                                    <li class="fortune-item"><span class="fortune-rank">9位 ひつじ座</span> <span>ラッキーアイテム:
+                                            羊毛</span>
+                                    </li>
+                                    <li class="fortune-item"><span class="fortune-rank">10位 みずがめ座</span> <span>ラッキーアイテム:
+                                            みずがめのスポーンエッグ</span></li>
+                                    <li class="fortune-item"><span class="fortune-rank">11位 やぎ座</span> <span>ラッキーアイテム:
+                                            紙</span>
+                                    </li>
+                                    <li class="fortune-item"><span class="fortune-rank">12位 うお座</span> <span>ラッキーアイテム:
+                                            校長の頭</span></li>
+                                </ul>
+                            </section>
+                        </div>
+                    </article>
+                </div>
+
+                <!-- Sidebar column -->
+                <aside class="content-grid__sidebar">
+                    <section class="sidebar-section">
+                        <h4 class="sidebar-heading">新着ニュース</h4>
+                        <ul class="schedule-list">
+                            <li><a href="article-classroom-makeover.html"
+                                    style="text-decoration:none; color:inherit;">1年1組の教室魔改造される!?!?</a></li>
+                            <li><a href="article-preparation-start.html"
+                                    style="text-decoration:none; color:inherit;">ついに解禁！文化祭準備、本格スタート！！</a></li>
+                            <li><a href="#" style="text-decoration:none; color:inherit;">食堂新メニュー「鳳凰カレー」登場</a></li>
+                        </ul>
+                    </section>
+
+                    <section class="sidebar-section">
+                        <h4 class="sidebar-heading">編集部より</h4>
+                        <p class="editorial-note">
+                            この教室の魔改造、芸術か狂気か。
+                            読者の皆様の目撃情報をお待ちしております。
+                            （担当：佐藤）
+                        </p>
+                    </section>
+
+                    <div class="ad-space">
+                        <img src="https://placehold.co/300x200/dcdcdc/2b2b2b?text=School+Ad" alt="広告スペース">
+                    </div>
+                </aside>
+            </div>
+        </main>
+
+        <footer class="newspaper-footer">
+            <p>&copy; 2026 Houlab School Festival Executive Committee. All Rights Reserved.</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
